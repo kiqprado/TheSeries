@@ -4,6 +4,7 @@
 
 :root {
     --bg-grey: #ddd;
+    --text-oppaco: #4a4a4a;
     --color-primary: #4D41C0;
     --white: #FFFFFF;
 }
@@ -57,4 +58,44 @@ a, a:hover {
 
 .DSMovie-contact-container img {
 margin-right: 10px;
+}
+#DSMovie-Card-List {
+    padding: 40px 0;
+}
+
+.DSMovie-Card {
+    width: 360px;
+}
+
+.DSMovie-Card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.DSMovie-Card-Descripition {
+    background-color: var(--white);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.DSMovie-Card-Descripition h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.DSMovie-btn, .DSMovie-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
