@@ -32,9 +32,29 @@
 
                     <div class="DSMovie-Card">
                         <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/rcA17r3hfHtRrk3Xs3hXrgGeSGT.jpg" alt="Stranger Things">
-                        <div class="DSMovie-Card-Descripition">
+                        <div class="DSMovie-Form-Descripition">
                             <h3>Stranger Things</h3>
-                            <a class="DSMovie-btn" href="index.html">Cancelar</a>
+                            <form class="DSMovie-form">
+                                <div class="form-group DSmovie-form-group">
+                                    <label for="email">Informe seu Email</label>
+                                    <input class="form-control" type="email" id="email">
+                                </div>
+                                <div class="form-group DSmovie-form-group">
+                                    <label for="score">Informe sua avaliação:</label>
+                                    <select class="form-control" name="score" id="score">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                </div>
+                                <div class="DSmovie-btn">
+                                    <button class="DSMovie-btn" type="submit">Enviar</button>
+                                    <a class="DSMovie-btn" href="index.html">Cancelar</a>
+                                </div>
+                            </form>
+                            
                         </div>       
                     </div> 
 
