@@ -8,6 +8,8 @@
     --color-primary: #4D41C0;
     --white: #FFFFFF;
     --text-nardo: #686A6C;
+    --Gold-Star: #FFD700;
+    --Grey-OP: #474a51;
 }
 
 * {
@@ -81,7 +83,7 @@ margin-right: 10px;
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
 }
 
 .DSMovie-Card-Descripition h3 {
@@ -89,6 +91,31 @@ margin-right: 10px;
     font-weight: 700;
     margin-bottom: 25px;
     text-align: center;
+}
+
+.DSMovie-Card-Evaluation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.DSMovie-Card-Evaluation h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--Gold-Star);
+}
+
+.DSMovie-Card-Evaluation img {
+    width: 22px;
+}
+
+.DSMovie-Card-Evaluation p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--Grey-OP);
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .DSMovie-btn, .DSMovie-btn:hover {
