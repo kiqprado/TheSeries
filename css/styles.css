@@ -59,12 +59,56 @@ a, a:hover {
     align-items: center;
 }
 
-.DSMovie-contact-container img {
-margin-right: 10px;
+.DSMovie-contact-container img {    
+    margin-right: 10px;
 }
 
 #DSMovie-Card-List {
-    padding: 40px 10px;
+    padding: 0px 10px;
+}
+
+.DSMovie-Pagination-Container {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DSmovie-Pagination-Box {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.DSmovie-Pagination-Box p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--text-oppaco);
+    font-weight: 400;
+}
+
+.DSmovie-Pagination-Box button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DSmovie-Pagination-Box button img {
+filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%) contrast(86%);
+}
+
+.DSmovie-Pagination-Box button:disabled {
+    border: 1px solid var(--text-nardo);
+}
+
+.DSmovie-Pagination-Box button:disabled img {
+    filter: unset;
 }
 
 .DSMovie-Card {
