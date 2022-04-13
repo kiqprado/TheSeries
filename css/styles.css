@@ -23,7 +23,15 @@
     --Mid-Grey: #a9a9a9;
     --gOLD: #F7EF84;
     --Gold2: #EEC900;
-    
+    --Light-red: #F31919;
+    --Red: #E11010;
+    --Dark-Red: #CE1919;
+    --Black: #000000;
+    --zzz: #5F5858;
+    --Grey-3: #484545;
+    --Grey-5: #444343;
+    --Grey-4: #504C4C;
+
 }
 
 * {
@@ -37,12 +45,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 html, body {
- background-color: var(--text-oppaco);
+ background-color: var(--Grey-5);
 }
 
 header {
     background-color: var(--Dark-Grey);
-    color: var(--Big-Blood); 
+    color: var(--Dark-Red); 
     height: 60px;
     display: flex;
     align-items: center;
@@ -54,9 +62,12 @@ nav {
     justify-content: space-between;
 }
 
-nav h1 {
+nav h1 a {
     font-size: 24px;
     font-weight: 700;
+    align-items: center;
+    display: flex;
+    color: var(--Big-Blood);
 }
 
 nav a {
@@ -105,9 +116,9 @@ a, a:hover {
 .DSmovie-Pagination-Box button {
     width: 30px;
     height: 30px;
-    border: 1px solid var(--Big-Blood);
+    border: 1px solid var(--Light-red);
     border-radius: 4px;
-    background-color: var(--Military-Green);
+    background-color: var(--zzz);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,6 +136,12 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
     filter: unset;
 }
 
+.DSmovie-Pagination-Box p {
+    color: var(--Dark-Grey);
+    font-size: 12px;
+    font-weight: 700;
+}
+
 .DSMovie-Card {
     width: 100%;
 }
@@ -135,7 +152,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSMovie-Card-Descripition {
-    background-color: var(--text-nardo);
+    background-color: var(--Grey-4);
     padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -150,12 +167,14 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
+    color: var(--Black);
 }
 
 .DSMovie-Card-Evaluation {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
 
@@ -197,7 +216,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSMovie-Form-Descripition {
-    background-color: var(--Military-Green);
+    background-color: var(--bg-grey);
     padding: 20px;
     display: flex;
     flex-direction: column;
