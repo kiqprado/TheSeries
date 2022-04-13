@@ -4,6 +4,7 @@
 
 :root {
     --bg-grey: #ddd;
+    --Cinza: #CBC8C8;
     --text-oppaco: #4a4a4a;
     --color-primary: #4D41C0;
     --white: #FFFFFF;
@@ -71,8 +72,10 @@ nav h1 a {
 }
 
 nav a {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
+    align-items: center;
+    display: flex;
 }
 a, a:hover {
     text-decoration: none;
@@ -85,7 +88,10 @@ a, a:hover {
 }
 
 .DSMovie-contact-container img {    
-    margin-right: 10px;
+    margin-right: 3px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
 }
 
 #DSMovie-Card-List {
@@ -181,7 +187,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 .DSMovie-Card-Evaluation h4 {
     font-size: 16px;
     font-weight: 700;
-    color: var(--bg-grey);
+    color: var(--Cinza);
 }
 
 .DSMovie-Card-Evaluation img {
@@ -189,9 +195,9 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSMovie-Card-Evaluation p {
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--bg-grey);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--Black);
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -216,7 +222,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSMovie-Form-Descripition {
-    background-color: var(--bg-grey);
+    background-color: var(--Grey-4);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -229,9 +235,10 @@ width: 100%;
 }
 
 .DSMovie-Form-Descripition h3 {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
     margin-bottom: 20px;
+    color: var(--Black);
 }
 
 .DSmovie-form-group {
@@ -240,7 +247,8 @@ width: 100%;
 
 .DSmovie-form-group label {
     font-size: 12px;
-    color: var(--text-nardo);
+    font-weight: 700;
+    color: var(--Black);
 }
 
 
