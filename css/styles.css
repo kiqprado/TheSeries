@@ -32,12 +32,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 html, body {
- background-color: var(--bg-grey);
+ background-color: var(--text-nardo);
 }
 
 header {
-    background-color: var(--color-primary);
-    color: var(--white); 
+    background-color: var(--text-oppaco);
+    color: var(--Big-Blood); 
     height: 60px;
     display: flex;
     align-items: center;
