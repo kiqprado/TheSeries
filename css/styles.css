@@ -18,6 +18,11 @@
     --Lylaxx: #F0D9D9;
     --Orange-Matte: #ED944D;
     --Turquoise: #4DEDE4;
+    --Military-Green: #78866b;
+    --Dark-Grey: #191919;
+    --Mid-Grey: #a9a9a9;
+    --gOLD: #F7EF84;
+    --Gold2: #EEC900;
     
 }
 
@@ -32,11 +37,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 html, body {
- background-color: var(--text-nardo);
+ background-color: var(--text-oppaco);
 }
 
 header {
-    background-color: var(--text-oppaco);
+    background-color: var(--Dark-Grey);
     color: var(--Big-Blood); 
     height: 60px;
     display: flex;
@@ -93,16 +98,16 @@ a, a:hover {
 .DSmovie-Pagination-Box p {
     margin: 0;
     font-size: 13px;
-    color: var(--text-oppaco);
+    color: var(--Dark-Grey);
     font-weight: 400;
 }
 
 .DSmovie-Pagination-Box button {
     width: 30px;
     height: 30px;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--Big-Blood);
     border-radius: 4px;
-    background-color: var(--white);
+    background-color: var(--Military-Green);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +118,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSmovie-Pagination-Box button:disabled {
-    border: 1px solid var(--text-nardo);
+    border: 1px solid var(--Red-matte);
 }
 
 .DSmovie-Pagination-Box button:disabled img {
@@ -130,7 +135,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSMovie-Card-Descripition {
-    background-color: var(--white);
+    background-color: var(--text-nardo);
     padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -157,7 +162,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 .DSMovie-Card-Evaluation h4 {
     font-size: 16px;
     font-weight: 700;
-    color: var(--Gold-Star);
+    color: var(--bg-grey);
 }
 
 .DSMovie-Card-Evaluation img {
@@ -167,7 +172,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 .DSMovie-Card-Evaluation p {
     font-size: 12px;
     font-weight: 400;
-    color: var(--Grey-OP);
+    color: var(--bg-grey);
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -192,7 +197,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSMovie-Form-Descripition {
-    background-color: var(--white);
+    background-color: var(--Military-Green);
     padding: 20px;
     display: flex;
     flex-direction: column;
