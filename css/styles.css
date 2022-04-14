@@ -32,6 +32,10 @@
     --Grey-3: #484545;
     --Grey-5: #444343;
     --Grey-4: #504C4C;
+    --bg-dk-Grey: #252526;
+    --light-black: #0C0C0D;
+    --Sun-Grey: #3A3A3A;
+
 
 }
 
@@ -46,11 +50,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 html, body {
- background-color: var(--Grey-5);
+ background-color: var(--bg-dk-Grey);
 }
 
 header {
-    background-color: var(--Dark-Grey);
+    background-color: var(--light-black);
     color: var(--Dark-Red); 
     height: 60px;
     display: flex;
@@ -88,7 +92,7 @@ a, a:hover {
 }
 
 .DSMovie-contact-container img {    
-    margin-right: 3px;
+    margin-right: 2px;
     margin-top: 7px;
     display: flex;
     align-items: center;
@@ -124,7 +128,7 @@ a, a:hover {
     height: 30px;
     border: 1px solid var(--Light-red);
     border-radius: 4px;
-    background-color: var(--zzz);
+    background-color: var(--Grey-3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +147,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSmovie-Pagination-Box p {
-    color: var(--Dark-Grey);
+    color: var(--Black);
     font-size: 12px;
     font-weight: 700;
 }
@@ -158,7 +162,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSMovie-Card-Descripition {
-    background-color: var(--Grey-4);
+    background-color: var(--Sun-Grey);
     padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -222,7 +226,7 @@ filter: invert(20%) sepia(57%) saturate(100%) hue-rotate(239deg) brightness(15%)
 }
 
 .DSMovie-Form-Descripition {
-    background-color: var(--Grey-4);
+    background-color: var(--Sun-Grey);
     padding: 20px;
     display: flex;
     flex-direction: column;
